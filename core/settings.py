@@ -77,9 +77,9 @@ AUTHENTICATION_BACKENDS = (
 
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = (
-    "89287355780-6en4uknkn93ihik0lh6hhi4ql2isof03.apps.googleusercontent.com"
+    "google_public_key"
 )
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "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"
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "google_secret_key"
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
     "https://www.googleapis.com/auth/userinfo.email",
